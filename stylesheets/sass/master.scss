@@ -3,5 +3,69 @@
 // --- PARTIALS ---
 @import "helpers/reset";
 @import "helpers/typography";
+@import "component/landing";
 
 // --- MASTER CONTROLS ---
+
+
+body{
+  background: url('media/imgs/randomBG.png');
+  font-family: 'Comfortaa';
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  margin: 0 auto;
+}
+
+h1{
+  font-size: 2em;
+  color: #111;
+  line-height: 1.8em;
+  font-weight: 500;
+}
+
+.section{
+
+}
+
+.Gen-Button-container{
+  margin-top: 80px;
+
+  height: 150px;
+  width: 400px;
+
+  background: url('media/imgs/button_bg.png');
+  background-size: 302px 131px;
+  background-repeat: no-repeat;
+  background-position-x: 65px;
+
+  display: flex;
+  justify-content: center;
+
+  .Gen-Button{
+    padding-top: 10px;
+    p{
+      font-size: 3em;
+      font-family: 'DIN Condensed';
+      letter-spacing: 0.2em;
+      border: 5px solid black;
+      border-radius: 100px;
+      padding: 43px 30px 28px 35px;
+    }
+  }
+}
+
+.page-split{
+  margin-top: 160px;
+}
+
+.spanStyle1{
+  font-family: 'Avenir Next';
+  font-weight: 600;
+}
+
+.spanStyle2{
+  color: white;
+}

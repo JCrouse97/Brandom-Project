@@ -76,3 +76,94 @@ body {
   -ms-font-feature-settings: "lnum";
   -webkit-font-feature-settings: "lnum";
   font-feature-settings: "lnum"; }
+
+.container {
+  width: 100vw;
+  display: flex;
+  justify-content: center; }
+  .container .content {
+    width: 90%;
+    max-width: 1200px;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-right: 20px; }
+    .container .content .section {
+      width: 100%;
+      display: flex;
+      justify-content: center; }
+      .container .content .section .hero-logo {
+        background: url("media/imgs/brandomlogo.png");
+        width: 445px;
+        height: 203px;
+        background-size: 445px 203px;
+        background-repeat: no-repeat;
+        margin-top: 50px; }
+      .container .content .section .hero-text {
+        padding-top: 60px; }
+        .container .content .section .hero-text h1 {
+          text-align: center; }
+        .container .content .section .hero-text span {
+          color: white; }
+      .container .content .section #howButton {
+        font-family: 'Avenir Next';
+        font-size: 0.9em;
+        text-decoration: underline;
+        padding-top: 15px; }
+      .container .content .section .How-It-Works {
+        font-size: 1.4em;
+        line-height: 1.7em;
+        letter-spacing: 0.03em; }
+
+@media only screen and (min-resolution: 200dpi) {
+  .container .content .section .hero-logo {
+    width: 340px;
+    height: 160px;
+    background-size: 320px 160px;
+    margin-top: 30px; }
+  .container .content .section .hero-text {
+    font-size: 2.5em; } }
+
+body {
+  background: url("media/imgs/randomBG.png");
+  font-family: 'Comfortaa';
+  display: flex;
+  justify-content: center; }
+
+.container {
+  margin: 0 auto; }
+
+h1 {
+  font-size: 2em;
+  color: #111;
+  line-height: 1.8em;
+  font-weight: 500; }
+
+.Gen-Button-container {
+  margin-top: 80px;
+  height: 150px;
+  width: 400px;
+  background: url("media/imgs/button_bg.png");
+  background-size: 302px 131px;
+  background-repeat: no-repeat;
+  background-position-x: 65px;
+  display: flex;
+  justify-content: center; }
+  .Gen-Button-container .Gen-Button {
+    padding-top: 10px; }
+    .Gen-Button-container .Gen-Button p {
+      font-size: 3em;
+      font-family: 'DIN Condensed';
+      letter-spacing: 0.2em;
+      border: 5px solid black;
+      border-radius: 100px;
+      padding: 43px 30px 28px 35px; }
+
+.page-split {
+  margin-top: 160px; }
+
+.spanStyle1 {
+  font-family: 'Avenir Next';
+  font-weight: 600; }
+
+.spanStyle2 {
+  color: white; }

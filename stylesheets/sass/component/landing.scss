@@ -1,0 +1,65 @@
+.container{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  .content{
+    width: 90%;
+    max-width: 1200px;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    .section{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+      .hero-logo{
+        background: url('media/imgs/brandomlogo.png');
+        width: 445px;
+        height: 203px;
+        background-size: 445px 203px;
+        background-repeat: no-repeat;
+        margin-top: 50px;
+      }
+      .hero-text{
+        padding-top: 60px;
+        h1{
+          text-align: center;
+        }
+        span{
+          color: white;
+        }
+      }
+      #howButton{
+        font-family: 'Avenir Next';
+        font-size: 0.9em;
+        text-decoration: underline;
+        padding-top: 15px;
+      }
+      .How-It-Works{
+        font-size: 1.4em;
+        line-height: 1.7em;
+        letter-spacing: 0.03em;
+      }
+    } //section
+  } //content
+} //container
+
+@media only screen and (min-resolution: 200dpi) {
+  .container{
+    .content{
+      .section{
+        .hero-logo{
+          width: 340px;
+          height: 160px;
+          background-size: 320px 160px;
+          margin-top: 30px;
+        }
+        .hero-text{
+          font-size: 2.5em;
+        }
+      } //section
+    } //content
+  } //container
+} //@media
